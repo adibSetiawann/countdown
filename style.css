@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("/img/hoach-le-dinh-Besxfn2Z8fo-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: -150px 0 40px;
+}
+.countdown {
+  display: flex;
+  transform: scale(2);
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.time h2 {
+  font-weight: bold;
+  color: #f3f3f3;
+  font-size: 3rem;
+  line-height: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem 0.3rem;
+  border-radius: 5px;
+}
+
+.time p {
+    margin-top: -35px;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 45px;
+  }
+  .time {
+    margin: 5px;
+  }
+  .time h2 {
+    font-size: 12px;
+  }
+  .time small {
+    font-size: 10px;
+  }
+}
