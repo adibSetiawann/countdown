@@ -3,7 +3,8 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("/img/hoach-le-dinh-Besxfn2Z8fo-unsplash.jpg");
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(53, 180, 178, 1) 54%, rgba(0, 212, 255, 1) 100%);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -40,12 +41,12 @@ h1 {
   font-size: 3rem;
   line-height: 1px;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 2rem 0.3rem;
+  padding: 2rem 1rem;
   border-radius: 5px;
 }
 
 .time p {
-    margin-top: -35px;
+  margin-top: -35px;
 }
 
 @media (max-width: 700px) {
